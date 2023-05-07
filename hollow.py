@@ -122,4 +122,3 @@ class HollowHeap():
     def addChild(v, w):
         v.next = w.child
         w.child = v
-        
