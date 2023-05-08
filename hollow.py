@@ -1,3 +1,5 @@
+# https://arxiv.org/pdf/1510.06535.pdf
+
 class HollowNode():
     def __init__(self, key, value):
         self.key = key
@@ -12,7 +14,6 @@ class HollowNode():
 class HollowHeap():
     def __init__(self):
         self.vals = {} # store val, node
-        print("initiated")
         
         
     def insert(self, k, v, h):
